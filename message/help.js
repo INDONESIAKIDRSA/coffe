@@ -466,14 +466,10 @@ ${week}, ${calender}
 *│*
 *│* • Dittaz
 *│* • Nina Kawai
-*│* • Resta Gamteng :v
 *│* • Zeeone Ofc
-*│* • Yudha Perdana
-*│* • Yogi PW
-*│* • Decode Denpa
-*│* • Fernazer
-*│* • X - Dev Team
-*│* • XChillDs & Yuzu
-*│*
+*│* • Adi Official
+*│* • Iqbal
+*│* • Usep
+*│* • Mzailani
 *╰────────────⦁*`
 }
