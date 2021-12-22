@@ -1,7 +1,7 @@
 
 exports.dada = (prefix, settings, pushname, ucapanWaktu) => {
 return `${ucapanWaktu} kak ${pushname}
-Berikut adalah list harga untuk sewa botz
+Berikut adalah list harga untuk sewa bot
 
 *╭─▸*「 𝗟𝗜𝗦𝗧 𝗦𝗘𝗪𝗔 」
 *┴*
@@ -27,8 +27,8 @@ Berikut adalah list harga untuk sewa botz
 𝗡𝗢𝗧𝗘 : 
 
 Bot on 24 jam tapi kadang 
-juga mati klo lgi ada error 
-atau lgi perbaikan bug.
+juga mati kalo lagi ada error 
+atau lagi perbaikan bug.
 
 Kalo mau sewa bisa chat
 owner Bot, khusus untuk free 
