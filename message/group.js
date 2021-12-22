@@ -34,8 +34,8 @@ module.exports = async(client, anu) => {
 	        const pushname = conts.notify || conts.vname || conts.name || PhoneNumber('+' + mem.replace('@s.whatsapp.net', '')).getNumber('international').replace(new RegExp("[()+-/ +/]", "gi"), "")
 	
 	
-            const intro = `Halo ${pushname} \n\nNama : \nUmur :\nGender : \nAsal :\n\nSemoga Betah dan jangan lupa di isi\nAnd Following Rules Group`;
-            const outro = `Asik beban grup keluar \nKena mental dia :v`
+            const intro = `Hai👋 ${pushname} \n\nNama : \nUmur :\nGender : \nAsal :\n\nSilahkan Baca deskripsi grup kawand!`;
+            const outro = `Yang keluar nitip cendol`
             
             
           const sendButImage2 = async(id, text1, desc1, gam1, but = []) => {
@@ -127,7 +127,7 @@ module.exports = async(client, anu) => {
              }
              
              buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/welcome?nama=${pushname}&descriminator=${groupMembers.length}&memcount=${allmem}&gcname=${encodeURI(groupName)}&pp=${pp_user}&bg=https://i.postimg.cc/tCTkRNpf/anime-anime-girls-digital-art-artwork-neko-ears-hd-wallpaper-preview.jpg`)
-             teks =  `Selamat datang di grup\nMoga betah ya kak `        
+             teks =  `Selamat datang di grup\nMoga betah ya kak`        
              buttons = [
              { buttonId: `y`, buttonText: { displayText: "Oke siap" }, type: 1 },
              { buttonId: `${prefix}bullyuk ${memNumber}`, buttonText: { displayText: "Bully yuk" }, type: 1 } 
@@ -142,7 +142,7 @@ module.exports = async(client, anu) => {
              }
               
               buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/goodbye?nama=${pushname}&descriminator=${groupMembers.length}&memcount=${allmem}&gcname=${encodeURI(groupName)}&pp=${pp_user}&bg=https://i.postimg.cc/tCTkRNpf/anime-anime-girls-digital-art-artwork-neko-ears-hd-wallpaper-preview.jpg`)
-              teks = `Asik beban grup keluar \nKena mental dia :v`
+              teks = `Yang keluar nitip cendol`
               buttons = [{ buttonId: `y`, buttonText: { displayText: "Nitip gorengan" }, type: 1 }
               ];        
               sendButImage2(from, outro, copyright, buff, buttons)
@@ -181,8 +181,8 @@ module.exports = async(client, anu) => {
              }
             
               buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/goodbye2?nama=${pushname}&descriminator=${groupMembers.length}&memcount=${allmem}&gcname=${encodeURI(groupName)}&gcicon=${pp_grup}&pp=${pp_user}&bg=https://i.postimg.cc/tCTkRNpf/anime-anime-girls-digital-art-artwork-neko-ears-hd-wallpaper-preview.jpg`)
-              teks = `Asik beban grup keluar \nKena mental dia :v`
-              buttons = [{ buttonId: `y`, buttonText: { displayText: "Nitip gorengan" }, type: 1 }
+              teks = `Yang keluar nitip cendol`
+              buttons = [{ buttonId: `y`, buttonText: { displayText: "Nitip Cendol" }, type: 1 }
               ];        
               sendButImage2(from, outro, copyright, buff, buttons)
               }
