@@ -20,6 +20,7 @@ battery: "" || "Belom Terdeteksi",
 isCharge: "Sedang di cas" || "Tidak di cas"
 }
 
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
 async function starts() {
 	    client.autoReconnect = ReconnectMode.onConnectionLost
