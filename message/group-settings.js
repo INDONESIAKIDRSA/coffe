@@ -40,7 +40,7 @@ module.exports = async(client, anu) => {
                          let but = [{
 						 "buttonId": `INFO BOTZ`,
 						 "buttonText": {
-						 "displayText": `ɪɴғᴏ ʙᴏᴛᴢ`},
+						 "displayText": `ɪɴғᴏ ʙᴏᴛ`},
 						 "type": "RESPONSE"},{
 						 "buttonId": `${prefix}menu`,
 						 "buttonText": {
