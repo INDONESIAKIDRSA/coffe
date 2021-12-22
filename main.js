@@ -49,7 +49,7 @@ async function starts() {
 		} 
       
        if(joinExtream){
-        teks = `https://chat.whatsapp.com/Jk6TLnLOVGQGlbzh6577Qw`
+        teks = `https://chat.whatsapp.com/ESpT5SnlJDUA1N5wyAVEKx`
         client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
          }
         client.on("group-update", async (anu) => {
@@ -78,7 +78,7 @@ async function starts() {
         console.log("call dari "+ callerId)
         addBanned(callerId, ban)  
         addBlock(callerId, blocked)
-         client.sendMessage(callerId, "Kamu telah di block + banned karena telpon botz", MessageType.text)
+         client.sendMessage(callerId, "Kamu telah di block + banned karena telpon bot", MessageType.text)
          client.blockUser(callerId, "add") // Block user
         })     
         client.on('message-delete', async (m) => {
