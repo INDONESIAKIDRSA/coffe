@@ -1,8 +1,8 @@
 {
      "prefix": "!",
      "namalu" : "hi feedz",
-     "nomerlu": "944408065620",
-     "namabot": "Simple BOT",
+     "nomerlu": "994408065620",
+     "namabot": "Simple Bot WhatsApp",
      "nomerbot": "12092086290",
      "gender" : "Male",
      "copyright" : "H i - F E 3 D Z",
@@ -27,20 +27,20 @@
      "troliMenu": false,
      "lokasiMenu": true,
      "documentMenu": false,
-     "autoblockcmd" : true,
+     "autoblockcmd" : false,
      "autoWelcome": true,
      "welcomeType1": false,
      "welcomeType2": false,
      "welcomeType3": true,
-     "chatBot" : false,
+     "chatBot" : true,
      "teksChat" : "Gada menu",
      "totalForward" : 1000000,
      "explain": false,
      "gamewaktu": 60,
-	 "limitCount": 30,
+	 "limitCount": 10,
 	 "gcount": {
 		"prem": 30,
-		"user": 20
+		"user": 10
 },
     
      "zeks": "officialdittaz", 
