@@ -33,7 +33,7 @@
      "welcomeType2": false,
      "welcomeType3": true,
      "chatBot" : true,
-     "teksChat" : "Gada menu",
+     "teksChat" : "bot cuman bisa digunakan didalam grup!",
      "totalForward" : 1000000,
      "explain": false,
      "gamewaktu": 60,
